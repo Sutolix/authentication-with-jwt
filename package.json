@@ -6,8 +6,9 @@
   "scripts": {
     "test": "test",
     "start": "node src/app.js",
-    "dev" : "nodemon --delay 500ms src/app.mjs"
+    "dev" : "nodemon --delay 500ms src/app.js"
   },
+  "type": "module",
   "author": "Sutolix",
   "license": "MIT",
   "dependencies": {

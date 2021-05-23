@@ -1,8 +1,8 @@
-import './database/connection.mjs'
-import { UserModel } from './models/user.mjs';
-import express from 'express';
+import './database/connection.js'
+import { UserModel } from './models/user.js';
+import * as jwt from './authentication/jwt.js'
 
-import * as jwt from './authentication/jwt.mjs'
+import express from 'express';
 
 const app = express()
 
